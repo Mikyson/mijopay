@@ -27,27 +27,30 @@
             margin-bottom: 1rem;
         }
         
-        /* NOUVEAU STYLE POUR LE BOUTON DE CONNEXION (plus grand) */
+        /* STYLE DU BOUTON DE CONNEXION AMÉLIORÉ */
         .login-btn {
             display: inline-block;
-            background: #2196F3; /* Bleu primaire */
+            background-color: #2196F3; /* Arrière-plan bleu vif */
             color: white;
-            padding: 1.2rem 3rem; /* Rendre plus grand */
+            padding: 1.2rem 3rem; 
+            border: 2px solid #1976D2; /* Bordure plus foncée */
             border-radius: 10px;
             text-decoration: none;
             font-weight: bold;
-            font-size: 1.4rem; /* Rendre le texte plus grand */
+            font-size: 1.4rem; 
             margin-bottom: 3rem;
-            transition: background 0.3s;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre pour qu'il ressorte */
+            transition: all 0.3s ease; /* Transition pour les effets de survol */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre plus visible */
         }
         .login-btn:hover {
-            background: #0b7dda;
+            background-color: #1976D2; /* Bleu légèrement plus foncé au survol */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Ombre agrandie */
+            transform: translateY(-2px); /* Léger mouvement vers le haut */
         }
 
-        /* L'ancien style .download-btn n'est plus utilisé mais conservé par sécurité */
+        /* L'ancien style .download-btn n'est plus utilisé */
         .download-btn {
-            display: none; /* Cachez le bouton APK s'il était encore là */
+            display: none; 
         }
         
         h1 {
